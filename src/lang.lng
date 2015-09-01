@@ -1,0 +1,316 @@
+en
+#Commands
+clans.command.default:team clan c
+clans.command.new:n new create +
+clans.command.remove:rm remove delete -
+clans.command.invite:inv invite
+clans.command.accept:a accept
+clans.command.deny:d deny
+clans.command.kick:k kick
+clans.command.leave:l leave
+clans.command.rank:r rank
+clans.command.editranks:ranks er editranks
+clans.command.info:i inf info
+clans.command.list:list
+clans.command.prefix:pre prefix
+clans.command.displayname:dn name displayname
+clans.command.suffix:suf suffix
+clans.command.ally:ally
+clans.command.enemy:enemy
+clans.command.spawn:s spawn
+clans.command.setspawn:ss setspawn
+clans.command.chat:chat
+clans.command.maxplayers:maxplayers maxp
+clans.command.reload:rl reload
+clans.command.save:sv save
+#Default
+clans.messageprefix:§9[Clans] 
+clans.default:§9Commands: new, remove, inv, accept, deny, kick, leave, rank, editranks, info, list, pre, suf, ally, enemy, spawn, setspawn, chat, maxp
+clans.inclan:§cYou are already in a clan!
+clans.noclan:§cYou aren't in a clan!
+clans.noplrname:§cYou didn't give the player name!
+clans.noclan.other:§c<player> isn't in your clan!
+clans.inclan.other:§c<player> is already in a clan!
+clans.exists:§cThe given clan, §e<name>§c already exists.
+clans.notexists:§cThe given clan, §e<name>§c not exists.
+#Create/remove
+clans.new:<name> clan created.
+clans.new.noname:§cYou didn't give the clan name!
+clans.remove:<name> clan removed.
+clans.joined:§b<player>§9 joined to clan.
+clans.leaved:§b<player>§9 leaved the clan.
+#Invite
+clans.invitations:§bPending invitations: §9<invitations>
+clans.invite.invited:§b<player>§9 is invited to your clan.
+clans.invite.cancelled:§b<player>§9s invitation was cancelled.
+clans.invite.hasinvitation:§e<player>§c already has a pending invitation.
+clans.invite.invitation:§b<player>§9 invited you to §b<name>§9 clan.\nUse command §b/c a§9 to accept or §b/c d§9 to deny.
+clans.invite.invcancelled:§b<player>§9 cancelled your invitation to §b<name>§9 clan.
+clans.invite.noinvitation:§cYou don't have a pending invitation!
+clans.invite.deny:Invitation to §b<name>§9 clan succesfully rejected.
+clans.invite.playernotonline:§cThe given player (§e<player>§c) isn't online!
+clans.invite.accepted:§b<name>§9 accepted the invitation and joined to clan.
+clans.invite.rejected:§b<name>§9 rejected the invitation.
+clans.invite.join:Succesfully joined to clan §b<name>§9.
+#Kick/leave
+clans.leave:Succesfully left your clan.
+clans.leave.lastowner:§cYou are the last owner of your clan, so you can't leave it!
+clans.left:§b<name>§9 left the clan.
+clans.kick:Succesfully kicked §b<name>§9 player from your clan for reason:§b <reason>
+clans.kick.player:§b<player>§9 kicked §b<name>§9 player from clan for reason:§b <reason>
+clans.kick.lastowner:§cCan't kick the last owner, §e<name>§c of your clan.
+clans.kicked:§bYou have been kicked out from your clan:§b <reason>
+#Don't translate this default reason, because it's not language supported!
+clans.kick.defaultreason:you broke the clan rules!
+#Rank
+clans.rank.your:Your rank is §b<rank>§9 rank, which has these permissions: §b<perms>
+clans.rank.player:§b<player>§9s rank is §b<rank>§9 rank, which has these permissions: §b<perms>
+clans.rank.lastowner:§cCan't demote the last owner, §e<name>§c of your clan.
+clans.rank.set:Succesfully changed §b<name>§9s rank to §b<rank>§9 rank.
+clans.rank.notfound:§cThe given rank §e<rank>§c isn't found.
+clans.rank.changed:§b<player>§9 changed §b<name>§9s rank to §b<rank>§9 rank.
+#EditRanks
+clans.editranks:§bAvailable ranks and it's permissions:§9<ranks>
+clans.editranks.ranklistformat:\n§b<rankname> §9<permissions>
+clans.editranks.cantedit:§cCan't change §e<rank>§c ranks permissions!
+clans.editranks.cantremove:§cCan't remove §e<rank>§c rank!
+clans.editranks.created:Succesfully created §b<rank>§9 rank.
+clans.editranks.removed:Succesfully removed §b<rank>§9 rank.
+clans.editranks.invalidperm:§cThe given perm (§e<perm>§c) doesn't exists.
+clans.editranks.addperm:Succesfully added §b<perm>§9 permission to §b<rank>§9 ranks permissions.
+clans.editranks.removeperm:Succesfully removed §b<perm>§9 permission from §b<rank>§9 ranks permissions.
+#Pre/suffix
+clans.prefix:Your clans prefix is §b<prefix>
+clans.prefix.set:Succesfully modified clan prefix to §b<prefix>
+clans.suffix:Your clans suffix is §b<suffix>
+clans.suffix.set:Succesfully modified clan suffix to §b<suffix>
+#Ally/enemies
+clans.ally:§bCurrent allys: §9<ally>\n§bIncoming ally requests: §9<requests>\n§bPending outcoming ally requests: §9<pending>
+clans.ally.yourclan:§cCan't add your clan as your clans ally.
+clans.ally.denied:Denied §b<clan>§9 clans ally request.
+clans.ally.denied.player:§b<player>§9 denied §b<clan>§9 clans ally request.
+clans.ally.accepted:Accepted §b<clan>§9 clans ally request.
+clans.ally.accepted.player:§b<player>§9 accepted §b<clan>§9 clans ally request.
+clans.ally.requested:Requested §b<clan>§9 clan for ally.
+clans.ally.requested.player:§b<player>§9 requested §b<clan>§9 clan for ally.
+clans.ally.cancelled:Cancelled ally request for §b<clan>§9 clan.
+clans.ally.cancelled.player:§b<player>§9 cancelled ally request for §b<clan>§9 clan.
+clans.ally.request:§b<clan>§9 requested ally from your clan, use §b/c ally <clan>§9 command to accept it or §b/c ally <clan> -§9to deny it.
+clans.ally.cancel:§b<clan>§9 cancelled your clans ally request.
+clans.ally.accept:§b<clan>§9 accepted your clans ally request.
+clans.ally.deny:§b<clan>§9 denied your clans ally request.
+clans.ally.broke:Succesfully broke the ally with clan §b<clan>§9.
+clans.ally.broke.player:§b<player>§9 broke the ally with clan §b<clan>§9.
+clans.ally.break:§b<clan>§9 clan is no longer your clans ally.
+clans.enemy:§bCurrent enemies: §9<enemies>
+clans.enemy.added:Added §b<enemy>§9 enemy.
+clans.enemy.removed:Removed §b<enemy>§9 enemy.
+#Info/DisplayName
+clans.info:§b<name> §9clan:\n§bprefix: §f<prefix>\n§bsuffix: §f<suffix><playerlist>
+clans.info.playerlist:\n§b<rank>: §9<players>
+clans.displayname:§9Your clans displayname is §f<name>
+clans.displayname.set:§9Set your clans displayname to §f<name>
+clans.displayname.set.player:§b<player>§9 set clans displayname to §f<name>
+#List
+clans.list:§bAvailable clans: §9<clans>
+#Chat
+clans.chat.enabled:Writing to ClanChat §benabled.
+clans.chat.disabled:Writing to ClanChat §bdisabled§9.
+clans.chat.normalformat:[<name>§f]§7{<rank>} <prefix><player><suffix> §e►§f <message>
+clans.chat.clanformat:§9[ClanChat] ► [<rank>]<player> ► §b<message>
+clans.chat.adminformat:§8[Clan-<name>] ► [<rank>]§7<player>§8 ► §f<message>
+#(Set)spawn
+clans.spawn:Teleported to clan spawn.
+clans.setspawn:Modified clan spawn to §b<x>§9, §b<y>§9, §b<z>§9.
+clans.setspawn.other:§b<player>§9 modified clan spawn to §b<x>§9, §b<y>§9, §b<z>§9.
+#Maxplayers
+clans.maxplr:Your clan has <current> players of <maximum> maximum players.
+clans.maxplr.set:Succesfully modified clans player limit to <maximum>.
+clans.maxplr.set.other:<player> modified clans player limit to <maximum>.
+#Save/reload
+clans.saved:Clans saved succesfully.
+clans.reloaded:Clans reloaded succesfully.
+#Noperm
+clans.noperm:§4You don't have permission to use clan plugin!
+clans.noperm.new:§4You don't have permission for creating clan!
+clans.noperm.remove:§4You don't have permission to remove the clan!
+clans.noperm.invite:§4You don't have permission to invite people to the clan!
+clans.noperm.accept:§4You don't have permission to accept clan invitations!
+clans.noperm.deny:§4You don't have permission to deny clan invitations!
+clans.noperm.kick:§4You don't have permission to kick players from your clan!
+clans.noperm.leave:§4You don't have permission to leave your clan!
+clans.noperm.rank:§4You don't have permission for ranking!
+clans.noperm.editranks:§4You don't have permission for editing ranks!
+clans.noperm.editranks.info:§4You don't have permission to see the ranks
+clans.noperm.info:§4You don't have permission for getting informations about clan!
+clans.noperm.list:§4You don't have permission to list all the existing clans!
+clans.noperm.prefix:§4You don't have permission to set clan prefix!
+clans.noperm.prefix.info:§4You don't have permission to see clan prefix!
+clans.noperm.save:§4You don't have permission to save clans!
+clans.noperm.reload:§4You don't have permission to reload clans!
+clans.noperm.suffix:§4You don't have permission to set clan suffix!
+clans.noperm.suffix.info:§4You don't have permission to see clan suffix!
+clans.noperm.ally:§4You don't have permission to manage clan allys!
+clans.noperm.ally.info:§4You don't have permission to see clan allys!
+clans.noperm.enemy:§4You don't have permission to manage clan enemies!
+clans.noperm.enemy.info:§4You don't have permission to see clan enemies!
+clans.noperm.spawn:§4You don't have permission to teleport to clan spawn!
+clans.noperm.setpawn:§4You don't have permission to set clan spawn!
+clans.noperm.chat:§4You don't have permission to toggle clan chat!
+clans.noperm.maxplayers:§4You don't have permission to change clan maxplayers!
+clans.noperm.maxplayers.info:§4You don't have permission to see current clan maxplayer number!
+de
+#Commands
+clans.command.default:team clan c
+clans.command.new:n new create +
+clans.command.remove:r remove delete -
+clans.command.invite:inv invite
+clans.command.accept:a accept
+clans.command.deny:d deny
+clans.command.kick:k kick
+clans.command.leave:l leave
+clans.command.rank:r rank
+clans.command.editranks:ranks er editranks
+clans.command.info:i inf info
+clans.command.list:list
+clans.command.prefix:pre prefix
+clans.command.suffix:suf suffix
+clans.command.ally:ally
+clans.command.enemy:enemy
+clans.command.spawn:s spawn
+clans.command.setpawn:ss setspawn
+clans.command.chat:chat
+clans.command.maxplayers:maxplayers maxp
+#Default
+clans.messageprefix:§9[Clans] 
+clans.default:§9Commands: new, remove, inv, accept, deny, kick, leave, rank, editranks, info, list, pre, suf, ally, enemy, spawn, setspawn, chat, maxp
+clans.inclan:§cDu bist breits in einem Clan.
+clans.noclan:§cDu bist in einem Clan
+clans.noplrname:§cDu hast den Spielernamen nicht angegeben.
+clans.noclan.other:§c<player> ist nicht dein Clan. 
+clans.inclan.other:§c<player> ist bereits in einem Clan.
+clans.exists:§cEin Clan mit dem Namen §e<name>§c existiert bereits.
+clans.notexists:§cDer Clan §e<name>§c existiert nicht.
+#Create/remove
+clans.new:Der Clan §b<name> §fwurde erstellt.
+clans.new.noname:§cDu hast den Clannamen vergessen.
+clans.remove:Der Clan §b<name> §fwurde geloescht.
+clans.joined:§b<player>§9 tritt dem Clan bei.
+clans.leaved:§b<player>§9 verlaesst den Clan.
+#Invite
+clans.invitations:§bausstehende Einladungen: §9<invitations>
+clans.invite.invited:§b<player>§9 wurde eingeladen dem Clan beizutreten.
+clans.invite.cancelled:§b<player>§9s hat die Einladung abgelehnt.
+clans.invite.hasinvitation:§e<player>§c wurde bereits eingeladen.
+clans.invite.invitation:§b<player>§9 hat dich eingeladen, dem Clan §b<name>§9 beizutreten.\nBenutzt den Befehl §b/c a§9 um anzunehmen, oder §b/c d§9 um abzulegen.
+clans.invite.invcancelled:§b<player>§9 hat die Einladung abgelehnt dem Clan §b<name>§9 beizutreten.
+clans.invite.noinvitation:§cDu hast keine ausstehende Einladung. 
+clans.invite.deny:Ddie Einladung des Clans §b<name>§9 wurde abgelehnt.
+clans.invite.playernotonline:§cDer Spieler (§e<player>§c) ist nicht online!
+clans.invite.accepted:§b<name>§9 hat die Einladung in den Clan angenommen.
+clans.invite.rejected:§b<name>§9 hat die Einladung in den Clan aufgenommen zu werden abgelehnt.
+clans.invite.join:Du bist dem Clan §b<name>§9 beigetreten.
+#Kick/leave
+clans.leave:Du hast den Clan verlassen.
+clans.leave.lastowner:§cDu bist der letze Besitzer des Clans, daher kannst du ihn nicht verlassen.
+clans.left:§b<name>§9 hat den Clan verlassen.
+clans.kick:§b<name>§9 wurde aus dem Clan geworden. Ursache:§b <reason>
+clans.kick.player:§b<player>§9 hat §b<name>§9 aus dem Clan geworfen. Ursache:§b <reason>
+clans.kick.lastowner:§cDu kannst nicht den einzigen Besiter des Clans §e<name>§c rauswerfen.
+clans.kicked:§bDu wurdest aus dem Clan geworfen. Ursache:§b <reason>
+#Don't translate this default reason, because it's not language supported!
+clans.kick.defaultreason:Du hast dich nicht an die Clanregeln gehalten.
+#Rank
+clans.rank.your:Du hast den Rang §b<rank>§9, welcher folgende Berechtigungen hat: §b<perms>
+clans.rank.player:§b<player>§9s hat den Rang §b<rank>§9, welcher die folgenden Berechtigungen hat: §b<perms>
+clans.rank.lastowner:§cDu kanst §e<name>§c nicht degradieren, da er der einzigste Besitzer des Clans ist.
+clans.rank.set:§b<name>§9 hat den Rang §b<rank>§9 erhalten.
+clans.rank.notfound:§cDer Rang §e<rank>§c wurde nicht gefunden.
+clans.rank.changed:§b<player>§9 hat den Ranf von §b<name>§9s zu §b<rank>§9 gewechselt.
+#EditRanks
+clans.editranks:§bvervuegbare Raenge und ihre Berechtigungen:§9<ranks>
+clans.editranks.ranklistformat:\n§b<rankname> §9<permissions>
+clans.editranks.cantedit:§cDu kannst die Berechtigungen von Rang §e<rank>§c nicht aendern!
+clans.editranks.cantremove:§cDu kannst den Rang §e<rank>§c nicht loeschen!
+clans.editranks.created:Der Rang §b<rank>§9 wurde erstellt.
+clans.editranks.removed:Der Rang §b<rank>§9 wurde geloescht.
+clans.editranks.invalidperm:§cDie angegebene Berechtigung (§e<perm>§c) existiert nicht.
+clans.editranks.addperm:Die Berechtigung §b<perm>§9 wurde dem Rang §b<rank>§9 hinzugefuegt.
+clans.editranks.removeperm:Die Berchtigung §b<perm>§9 wurde vom Rang §b<rank>§9 entfernt.
+#Pre/suffix
+clans.prefix:Das Praefix das Clans ist: §b<prefix>
+clans.prefix.set:Das Fraefix den Clans wurde auf §b<prefix> geaendert.
+clans.suffix:Das Suffix des Clans ist: §b<suffix>
+clans.suffix.set:Das Stiffox des Clans wurde auf §b<suffix> geaendert.
+#Ally/enemies
+clans.ally:§bAllianz mit: §9<ally>\n§beingegangene Allianzanfragen: §9<requests>\n§bausgegangene Allianzanfragen: §9<pending>
+clans.ally.yourclan:§cDieser Clan kann nicht zu deinen verbuendeten Clans hinzugefuegt werden.
+clans.ally.denied:Eine Allianz mit dem Clan §b<clan>§9 wurde angelehnt.
+clans.ally.denied.player:§b<player>§9 hat die Allianzanfrage des Clans §b<clan>§9 angelehnt.
+clans.ally.accepted:Der Clan §b<clan>§9 steht nun mit eurem Clan in einer Allianz.
+clans.ally.accepted.player:§b<player>§9 hat die Allianzanfrage des Clans §b<clan>§9 bestaetigt.
+clans.ally.requested:Es wurde eine Allianzanfrage an den Clan §b<clan>§9 gesendet.
+clans.ally.requested.player:§b<player>§9 hat nach einer Allianz mit dem Clan §b<clan>§9 angefragt.
+clans.ally.cancelled:Die Allianzanfrage mit dem Clan §b<clan>§9 wurde abgebrochen.
+clans.ally.cancelled.player:§b<player>§9 hat die Allianzsanfrage fuer den Clan §b<clan>§9 abgebrochen.
+clans.ally.request:Der Clan §b<clan>§9 fragt nach einer Allianz an. Benutze den Befehl §b/c ally <clan>§9 um anzunehmen oder, §b/c ally <clan> -§9 um abzulehnen.
+clans.ally.cancel:§bDer Clan <clan>§9 hat deine Allianzanfrage abgebrochen.
+clans.ally.accept:§bDer Clan <clan>§9 hat deine Allianzanfrage angenommen.
+clans.ally.deny:§bDer Clan <clan>§9 hat deine Allianzsanfrage abgelehnt.
+clans.ally.broke:Die Allianz mit dem Clan §b<clan>§9 wurde beendet.
+clans.ally.broke.player:§b<player>§9 hat die Allianz mit dem Clan §b<clan>§9 beendet.
+clans.ally.break:Die Allianz mit dem Clan §b<clan>§9 wurde beendet.
+clans.enemy:§bFeinde: §9<enemies>
+clans.enemy.added:Der Clan §b<enemy>§9 wurde als Freind hinzugefuegt.
+clans.enemy.removed:Der Clan §b<enemy>§9 wurde als Feind entfernt.
+#Info
+clans.info:§b<name> §9Clan:\n§bPraefix: §f<prefix>\n§bSuffix: §f<suffix><playerlist>
+clans.info.playerlist:\n§b<rank>: §9<players>
+#List
+clans.list:§bexistierende Clans: §9<clans>
+#Chat
+clans.chat.enabled:Das Schreiben im Clanchat wurde §benabled§9..
+clans.chat.disabled:Das Schreiben im Clanchat wurde §bdisabled§9.
+clans.chat.normalformat:[<name>]§7{<rank>} <prefix><player><suffix> §e►§f <message>
+clans.chat.clanformat:§9[ClanChat] ► [<rank>]<player> ► §b<message>
+clans.chat.adminformat:§8[Clan-<name>] ► [<rank>]§7<player>§8 ► §f<message>
+#(Set)spawn
+clans.spawn:Du wurdest zum Spawn des Clans teleportiert.
+clans.setspawn:Der Spawn des Clans wurde auf §b<x>§9, §b<y>§9, §b<z>§9 geaendert.
+clans.setspawn.other:§b<player>§9 hat den Spawn des Clans auf §b<x>§9, §b<y>§9, §b<z>§9 geaendert.
+#Maxplayers
+clans.maxplr:Dein Clan hat derzeitig <current> von maximal <maximum> Spielern.
+clans.maxplr.set:Das maximal erlaubte Anzahl an Clanmitgliedern wurde auf <maximum> geaendert.
+clans.maxplr.set.other:<player> hat die maximal erlaubte Anzahl von Clanmitgliedern auf <maximum> geaendert.
+#Save/reload
+clans.saved:Clans wurde gesichert
+clans.reloaded:Clans wurde neugeladen.
+#Noperm
+clans.noperm:§4Du hast nicht die Berechtigung das Clansplugin zu verwenden.
+clans.noperm.new:§4Du hast nicht die Berechtigung einen Clan zu erstellen.
+clans.noperm.remove:§4Du hast nicht die Berechtigung einen Clan zu loeschen.
+clans.noperm.invite:§4Du hast nicht die Berechtigung Spieler in den Clan einzuladen.
+clans.noperm.accept:§4Du hast nicht die Berechtigung Freundschaftseinladungen zu akzeptieren.
+clans.noperm.deny:§4Du hast nicht die Berechtigung Freundschaftseinladungen abzulehnen.
+clans.noperm.kick:§4Du hast nicht die Berechtigung Mitglieder aus dem Clan zu werden.
+clans.noperm.leave:§4Du hast nicht die Berechtigung deinen Clan zu verlassen.
+clans.noperm.rank:§4Du hast nicht die Berechtigung Raenge zu verteilen.
+clans.noperm.editranks:§4Du hast nicht die Berechtigung Raenge zu aendern.
+clans.noperm.editranks.info:§4Du hast nicht die Berechtigung Raenge zu verteilen.
+clans.noperm.info:§4Du hast nicht die Berechtigung Informationen ueber Clans zu erhalten.
+clans.noperm.list:§4Du hast nicht die Berechtigung alle existierenden Clans angezeigt zu bekommen.
+clans.noperm.prefix:§4Du hast nicht die Berechtigung das Clanpraefix zu aendern.
+clans.noperm.prefix.info:§4Du hast nicht die Berechtigung das Clanpriefix zu sehen.
+clans.noperm.save:§4Du hast nicht die Berechtigung den Clans zu speichern
+clans.noperm.reload:§4Du hast nicht die Berechtigung Clans neuzuladen.
+clans.noperm.suffix:§4Du hast nicht die Berechtigung Clansuffixe zu aendern.
+clans.noperm.suffix.info:§4Du hast nicht die Berechtigung Clansuffixe zu sehen.
+clans.noperm.ally:§4Du hast nicht die Berechtigung die Freunde des Clans zu verwalten.
+clans.noperm.ally.info:§4Du hast nicht die Berechtigung die Freunde des Clans zu sehen.
+clans.noperm.enemy:§4Du hast nicht die Berechtigung die Feinde des Clans zu verwalten.
+clans.noperm.enemy.info:§4Du hast nicht die Berechtigung die Feinde des Clans zu sehen.
+clans.noperm.spawn:§4Du hast nicht die Berechtigung zum Spawn des Clans zu teleportieren.
+clans.noperm.setpawn:§4Du hast nicht die Berechtigung den Clan des Clans zu aendern.
+clans.noperm.chat:§4Du hast nicht die Berechtigung die Clanchat zu aktivieren/deaktivieren.
+clans.noperm.maxplayers:§4Du hast nicht die Berechtigung die maximale Anzahl des Clans zu veraendern.
+clans.noperm.maxplayers.info:§4Du hast nicht die Berechtigung die maximale Anzahl der Clanmitglieder des Clans zu sehen.

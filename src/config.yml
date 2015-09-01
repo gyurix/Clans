@@ -1,0 +1,32 @@
+#Clans configuration, by Gyurix.
+version: 1
+forcelangcopy: +
+chat:
+  clan:
+#Enable automatically clan chat, if you join to any clan.
+    autoenable: +
+#Remember clan chat status for each player, when they logout.
+    remember: +
+#Enable clan chat on player login
+    forceon: +
+#Override default server chat system.
+  editregular: +
+#Enable using scoreboard packets for adding clan prefixes and suffixes before and after player names in tab and in players nametag.
+scoreboard: +
+maxplayer:
+#Default maxplayer number for a new clan.
+  default: 16
+#Set default clan spawn location to clan creation place
+clancreationspawn: +
+#Here you can set the default member permissions for new clans.
+memberperms: Invite AdminMessages
+remove:
+#Remove every clan on server stop.
+  serverstop: -
+#Remove a clan if has no players.
+  noplayers: +
+#Remove a clan if has no online players.
+  noonlinepls: -
+owners:
+#Force clans to have at least one owner, that means: if the clan has only one owner, then this owner can't leave the clan or can't be demoted.
+  mustbeoneowner: +
